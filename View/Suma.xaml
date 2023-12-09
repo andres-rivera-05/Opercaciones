@@ -5,10 +5,16 @@
              Title="Suma">
     <VerticalStackLayout>
         <Entry x:Name="imputUno" Placeholder="Ingrese un numero"
-               Margin="30,0,30,0" FontSize="18" HeightRequest="60"/>
+               Margin="30,0,30,20" FontSize="18" HeightRequest="60"/>
         <Entry x:Name="imputDos" Placeholder="Ingrese un numero"
-               Margin="30,0,30,0" FontSize="18" HeightRequest="60"/>
+               Margin="30,0,30,20" FontSize="18" HeightRequest="60"/>
         <Entry x:Name="imputTres" Placeholder="Ingrese un numero"
-               Margin="30,0,30,0" FontSize="18" HeightRequest="60"/>
+               Margin="30,0,30,20" FontSize="18" HeightRequest="60"/>
+        <Button x:Name="ButtonSumar" Text="Sumar" Margin="30,0,30,0"
+                CornerRadius="25" Background="#512BD4" TextColor="White"
+                FontSize="18"/>
+        <Button x:Name="ButtonLimpiar" Text="Limpiar" Margin="30,0,30,0"
+        CornerRadius="25" Background="#512BD4" TextColor="White"
+        FontSize="18"/>
     </VerticalStackLayout>
 </ContentPage>

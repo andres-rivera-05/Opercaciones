@@ -3,5 +3,10 @@
             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
             xmlns:local="clr-namespace:Opercaciones.View"
             x:Class="Opercaciones.View.Tabbedpage">
+
+    <local:Suma/>
+    <local:Resta/>
+    <local:Multiplicar/>
+    <local:Dividir/>
     
 </TabbedPage>
