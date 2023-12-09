@@ -10,11 +10,12 @@
                Margin="30,0,30,20" FontSize="18" HeightRequest="60"/>
         <Entry x:Name="imputTres" Placeholder="Ingrese un numero"
                Margin="30,0,30,20" FontSize="18" HeightRequest="60"/>
+        
         <Button x:Name="ButtonSumar" Text="Sumar" Margin="30,0,30,0"
                 CornerRadius="25" Background="#512BD4" TextColor="White"
-                FontSize="18"/>
-        <Button x:Name="ButtonLimpiar" Text="Limpiar" Margin="30,0,30,0"
-        CornerRadius="25" Background="#512BD4" TextColor="White"
-        FontSize="18"/>
+                FontSize="18" Clicked="ButtonSumar_Clicked"/>
+        <Button x:Name="ButtonLimpiar" Text="Limpiar" Margin="30,20,30,0"
+        CornerRadius="25" BackgroundColor="#512BD4" TextColor="White"
+        FontSize="18" Clicked="ButtonLimpiar_Clicked"/>
     </VerticalStackLayout>
 </ContentPage>
