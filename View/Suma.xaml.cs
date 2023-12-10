@@ -22,7 +22,7 @@ public partial class Suma : ContentPage
             double.TryParse(imputTres.Text, out double valorTres)){
 
             double resultado = valorUno + valorDos + valorTres;
-            DisplayAlert("Resultado",$"La Suma es:{resultado}","OK");
+            DisplayAlert("Resultado",$"La Suma es:{resultado}","Aceptar");
         }
         else{
             DisplayAlert("Error", "Completa los campos", "OK");
