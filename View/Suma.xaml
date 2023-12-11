@@ -16,7 +16,7 @@
         <Button x:Name="ButtonSumar" Text="Sumar" Margin="30,0,30,0"
                 CornerRadius="25" Background="#0389ff" TextColor="White"
                 FontSize="18" Clicked="ButtonSumar_Clicked"/>
-
+    
         <Button x:Name="ButtonLimpiar" Text="Limpiar" Margin="30,20,30,0"
                 CornerRadius="25" BackgroundColor="#0389ff" TextColor="White"
                 FontSize="18" Clicked="ButtonLimpiar_Clicked"/>
