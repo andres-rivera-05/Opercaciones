@@ -24,7 +24,14 @@ public partial class Suma : ContentPage
             double resultado = valorUno + valorDos + valorTres;
             DisplayAlert("Resultado",$"La Suma es:{resultado}","Aceptar");
         }
-        else{
+        else if ((imputUno.Text == "." || imputUno.Text == "-") ||
+                (imputDos.Text == "." || imputDos.Text == "-") ||
+                (imputTres.Text == "." || imputTres.Text == "-"))
+        {
+            DisplayAlert("Error", "Completa los campos con numeros", "Aceptar");
+        }
+        else
+        {
             DisplayAlert("Error", "Completa los campos", "OK");
         }
     }
