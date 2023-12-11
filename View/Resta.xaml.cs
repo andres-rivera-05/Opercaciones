@@ -16,6 +16,11 @@ public partial class Resta : ContentPage
             double resultado = valorUno - valorDos;
             DisplayAlert("Resultado", $"La Resta es: {resultado}", "Aceptar");
         }
+        else if ((imputUno.Text == "." || imputUno.Text == "-") ||
+                (imputDos.Text == "." || imputDos.Text == "-"))
+        {
+            DisplayAlert("Error", "Completa los campos con numeros", "OK");
+        }
         else
         {
             DisplayAlert("Error", "Completa los campos", "OK");
